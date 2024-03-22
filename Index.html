@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Codewithshobhit Happy Holi 2024</title>
+
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+  <style>
+    *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    user-select: none;
+    font-family: poppins, sans-serif;
+    min-width: fit-content;
+
+}
+body{
+    overflow: hidden;
+    background: rgb(0, 0, 0);
+    background-size: cover;
+    
+}
+.navbar{
+    margin-top: 10px;
+}
+.log{
+    width: 40px;
+    height: 40px;
+    filter:drop-shadow(0 0 10px white);
+}
+
+.myinfo
+{
+    position: absolute;
+    top: 200px;
+    left: 150px;
+    width: fit-content;
+    color:white;
+    
+    text-shadow: 5px 5px 10px rgba(0, 0, 0, 0.73);
+}
+.nav-link
+{
+    color:white;
+}
+.nav-item{
+color: white;
+margin-left: 20px;
+}
+.btn{
+    border:none;
+    color:white;
+    background: transparent;
+    border: 1px solid white;
+    border-radius: 50px;
+}
+.holi{
+   
+    color:transparent;
+    background-clip: border-box;
+    color: whitesmoke;
+    /* list-style: none; */
+    font-size: 20px;
+    font-weight: bold;
+    /* position: relative; */
+    /* top: 0; */
+}
+h1{
+    font-size: 90px;
+    font-weight: bold;
+}
+
+.nav-link:hover
+{
+   color: rgb(255, 0, 0);
+   text-shadow: 0 0 20px black;
+}
+#myV{
+    position: fixed;
+  right: 0; 
+  bottom: 0;
+  min-width: 100%; 
+  min-height: 100%;
+  width: auto; 
+  height: auto; 
+  z-index: -100;
+  background-size: cover;
+}
+video
+{ position: fixed;
+  top: 50%;
+  left: 50%;
+  min-width: 100%;
+  min-height: 100%;
+  width: auto;
+  height: auto;
+  z-index: -100;
+  -ms-transform: translateX(-50%) translateY(-50%);
+  -moz-transform: translateX(-50%) translateY(-50%);
+  -webkit-transform: translateX(-50%) translateY(-50%);
+  transform: translateX(-50%) translateY(-50%);
+}
+.hue{
+    color: rgb(240, 81, 2);
+    
+    font-weight: bold;
+    animation: hue 5s infinite;
+}
+
+@keyframes hue{
+    0%{
+        -webkit-filter: hue-rotate(0deg);
+    }
+    100%{
+
+        -webkit-filter: hue-rotate(700deg);
+    }
+}
+
+body {
+    font-size: 16px;
+}
+@media (min-width:768px) {
+    body {
+        font-size: 18px;
+    }
+}
+@media (min-width:1024px) {
+    body {
+        font-size: 19px;
+    }
+}
+@media (min-width:1280px) {
+    body {
+        font-size: 20px;
+    }
+}
+
+.countdown-container {
+  text-align: center;
+  background-color: chocolate;
+  position: relative;
+  top: 600px;
+  border: 1px solid;
+  border-radius: 10px;
+  left: 1100px;
+  width: fit-content;
+  filter: brightness(-30px);
+}
+
+.countdown-item {
+  display: inline-block;
+  margin: 0 10px;
+}
+
+.countdown-item span {
+  display: block;
+  font-size: 24px;
+}
+
+.countdown-item span:first-child {
+  font-size: 36px;
+}
+  </style>
+</head>
+<body>
+  <nav class="navbar navbar-expand-lg fixed-top">
+      <div class="container">
+          <a class="navbar-brand text-white" href="#">
+           <div class="log">Happy Holi By Mr Rinku Kr</div>
+          </a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+   
+      <div class="collapse navbar-collapse" >
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item active">
+            <a class="btn btn-light" href="#">Home <span class="sr-only">current()</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Contact</a>
+          </li>
+          <li class="nav-item">
+              <a class="nav-link" href="#">About</a>
+            </li>
+           
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              More
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item" href="#">Action</a>
+              <a class="dropdown-item" href="#">Another action</a>
+              <div class="dropdown-divider"></div>
+              <a class="dropdown-item" href="#">Something else here</a>
+            </div>
+          </li>
+        
+      </div>
+      </div>
+    </nav>
+
+    <div class="myinfo">
+      <h1 class="holi">Hey there!</h1>
+      <h1>i am Rinku</h1>
+          <p>Wishing you and your loved ones a very colourful Holi<br>May you forget all your worries and enjoy this day to the fullest.<br> <h2 class="hue">Happy Holi!</h2></p>
+
+              <a href="#" class="btn btn-danger mr-3 hue">contact</a>
+              <a href="#" class="btn btn-light">Login</a>
+      </div>
+<div id="myV">
+        <video autoplay loop play-inline muted  >
+          <source src="/Video/Happy_Holi.mp4">
+              video is not load
+          </video>
+</div>
+  <div class="countdown-container">
+    <h2>Countdown</h2>
+    <div class="countdown" id="countdown">
+      <div class="countdown-item">
+        <span id="days">00</span>
+        <span>Days</span>
+      </div>
+      <div class="countdown-item">
+        <span id="hours">00</span>
+        <span>Hours</span>
+      </div>
+      <div class="countdown-item">
+        <span id="minutes">00</span>
+        <span>Minutes</span>
+      </div>
+      <div class="countdown-item">
+        <span id="seconds">00</span>
+        <span>Seconds</span>
+      </div>
+    </div>
+  </div>
+
+<script>
+// Set the date we're counting down to
+const countDownDate = new Date("Mar 24, 2024 00:00:00").getTime();
+
+// Update the countdown every 1 second
+const countdown = setInterval(function() {
+  // Get the current date and time
+  const now = new Date().getTime();
+  
+  // Calculate the distance between now and the countdown date
+  const distance = countDownDate - now;
+  
+  // Calculate days, hours, minutes, and seconds
+  const days = Math.floor(distance / (1000 * 60 * 60 * 24));
+  const hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+  const minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+  const seconds = Math.floor((distance % (1000 * 60)) / 1000);
+  
+  // Display the countdown
+  document.getElementById("days").innerHTML = formatTime(days);
+  document.getElementById("hours").innerHTML = formatTime(hours);
+  document.getElementById("minutes").innerHTML = formatTime(minutes);
+  document.getElementById("seconds").innerHTML = formatTime(seconds);
+  
+  // If the countdown is finished, clear the interval
+  if (distance < 0) {
+    clearInterval(countdown);
+  }
+}, 1000);
+
+// Function to add leading zeros to numbers
+function formatTime(time) {
+  return time < 10 ? `0${time}` : time;
+}
+</script>
+  
+</body>
+
+</html>
